@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noUnusedLocals": true,
+        "sourceMap": true,
+        "declaration": false,
+        "pretty": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,  
+        "allowSyntheticDefaultImports": true,
+
+    },
+    "include": [
+        "src/**/*",
+        "index.ts"
+    ],
+    "exclude": ["node_modules", "dist"]
+  }
+  
